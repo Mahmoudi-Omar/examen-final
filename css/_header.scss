@@ -1,0 +1,68 @@
+.header-banner{
+    background-color: $YellowColor;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    .logo {
+        margin-right:30px;
+    }
+    
+    .search {
+        display: flex;
+    }
+    .search input {
+        height: 100%;
+        border-radius: 0;
+        width: 400px;
+    }
+    .search .btn-search {
+        background-color: $BlackColor;
+        color: $WhiteColor;
+        border-radius: 0;
+    }
+
+    .compare-product {
+       @extend %icons-setting;
+        .fa-sync {
+            font-size: $font-icon-size;
+        }
+        span {
+            @extend %span-icon-setting;
+        }
+    }
+
+    .wish-list {
+        @extend %icons-setting;
+        .fa-heart {
+            font-size: $font-icon-size;
+        }
+        span {
+            @extend %span-icon-setting;
+        }
+    }
+
+    .cart {
+        @extend %icons-setting;
+        .fa-shopping-cart {
+            font-size: $font-icon-size;
+        }
+        span {
+            @extend %span-icon-setting;
+        }
+    }
+}
+
+.header-container {
+    nav {
+        background-color: #fff !important;
+        box-shadow: 0 3px 12px 0 rgba(0,0,0,0.1);
+        li {
+            margin: 0 20px;
+        }
+        .nav-link {
+            font-size: 15px !important;
+            color: #222 !important;
+            font-weight: 500 !important;
+        }
+    }
+}
