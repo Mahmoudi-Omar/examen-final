@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -77,20 +79,25 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-9">
                 <div class="center-img">
                     <div class="img">
-                        <img style="width: 100%;height: 420px;" src="images/26-266975_pc-gaming.jpg">
-                        <button class="btn btn-shop">Shop Now</button>
+                        <img src="images/00vBaknNiRKkyMr.jpg">
+                    </div>
+                    <div class="img">
+                        <img src="images/iPhone12.png">
+                    </div>
+                    <div class="img">
+                        <img src="images/iphone-12-vietnam.jpg">
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <!-- <div class="col-3">
                 <div class="left-imgs">
                     <img src="images/img1-top-sinrato2.jpg">
                     <img src="images/img2-top-sinrato2.jpg">
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <!-- <div class="container"> -->
@@ -454,6 +461,15 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.center-img').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+        })
+    </script>
 </body>
 </html>

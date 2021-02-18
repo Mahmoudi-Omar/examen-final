@@ -37,6 +37,10 @@ p {
     transition: all .5s;
 }
 
+a {
+    color: $BlackColor;
+    text-decoration: none;
+}
 
 
 // body 
@@ -90,6 +94,14 @@ p {
     height: 100%;
     .img {
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 458px;
+        img {
+            max-height: 100%;
+            max-width: 100%;
+        }
         .btn-shop {
             background-color: $YellowColor;
             color: $BlackColor;
@@ -377,3 +389,4 @@ p {
 }
 @import "header";
 @import "footer";
+@import "shoppingCart";
