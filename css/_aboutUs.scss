@@ -1,0 +1,25 @@
+.about-us-content {
+    padding: 20px 35px;
+    h2 {
+        font-size: 27px;
+        color: $BlackColor;
+        font-weight: bold;
+    }
+    h4 {
+        font-size: 18px;
+        color: $BlackColor;
+        font-weight: bold;
+    }
+    p {
+        font-weight: 400;
+        color: #777;
+        font-size: 14px;
+        line-height: 1.5;
+
+    }
+    h6 {
+        color: $BlackColor;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}

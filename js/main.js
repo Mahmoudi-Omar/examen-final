@@ -68,7 +68,7 @@ function showProducts() {
     // divDom.innerHTML=productList
 
     products.forEach(product => {
-        divDom.innerHTML+=`<div class="col-3">
+        divDom.innerHTML+=`<div class="col-md-3 col-sm-6 col-xs-12">
             <div class="card-our-product">
                 <div class="img-card-our-product">
                     <img style="width:100%;" src="${product.image}"/>

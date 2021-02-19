@@ -1,0 +1,58 @@
+.box-section {
+    margin:20px;
+    h2 {
+        margin-bottom: 30px;
+    }
+}
+.contact-us-box {
+    @extend %transition-sideBar ;
+    border: 1px solid $border-color;
+    display: flex;
+    padding: 20px;
+    strong {
+        color: #777;
+        font-size: 14px;
+    }
+    p {
+        font-weight: 400;
+        color: #777;
+        font-size: 14px;
+    }
+    .right {
+        margin-left: 30px;
+    }
+    button {
+        background-color: $BlackColor;
+        color: $WhiteColor;
+        padding: 12px;
+        border-radius: 20px;
+        &:hover {
+            color: $YellowColor;
+        }
+    }
+    &:hover {
+        border: 1px solid $YellowColor;
+    }
+}
+
+.contact-box {
+    margin: 0 20px;
+    .form-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid $border-color;
+        padding: 20px 0;
+        form {
+            width: 690px;
+            label {
+                font-weight: 400;
+                color: #777;
+                font-size: 14px;
+            }
+            input {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

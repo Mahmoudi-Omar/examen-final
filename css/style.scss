@@ -40,6 +40,10 @@ p {
 a {
     color: $BlackColor;
     text-decoration: none;
+    &:hover {
+        text-decoration: none;
+        color: $BlackColor;
+    }
 }
 
 
@@ -391,3 +395,5 @@ a {
 @import "footer";
 @import "shoppingCart";
 @import "shop";
+@import "aboutUs";
+@import "contactUs";
